@@ -1,0 +1,7 @@
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\Methode(Value)\Methode(Value)\obj\Debug\Methode(Value).csprojAssemblyReference.cache
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\Methode(Value)\Methode(Value)\obj\Debug\Methode(Value).csproj.CoreCompileInputs.cache
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\Methode(Value)\Methode(Value)\bin\Debug\Methode(Value).exe.config
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\Methode(Value)\Methode(Value)\bin\Debug\Methode(Value).exe
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\Methode(Value)\Methode(Value)\bin\Debug\Methode(Value).pdb
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\Methode(Value)\Methode(Value)\obj\Debug\Methode(Value).exe
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\Methode(Value)\Methode(Value)\obj\Debug\Methode(Value).pdb

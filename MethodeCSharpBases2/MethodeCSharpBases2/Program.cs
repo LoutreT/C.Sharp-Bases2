@@ -10,15 +10,15 @@ namespace MethodeCSharpBases2
     {
         static void Main(string[] args)
         {
-            AffichageBienvenue();
-            AffichageBienvenue();
+            DireBonjour("Nicolas", 30);
+            DireBonjour("Jeremie", 20);
         }
 
-        static void AffichageBienvenue()   // j'ai supprimé l'origine : (string[] args)
+        static void DireBonjour(string prenom, int age)
         {
-            Console.WriteLine("Bonjour Nicolas");
-            Console.WriteLine("------------------" + Environment.NewLine);
-            Console.WriteLine("\tBienvenue dans le monde merveilleux du C#");
+            Console.WriteLine("Bonjour"+prenom);
+            Console.WriteLine("Vous avez "+age+" ans"); /* et maintenant reste à tester dans 
+            "Deboguer" et ensuite dans "executer sans debogage." */
         }
     }
 }

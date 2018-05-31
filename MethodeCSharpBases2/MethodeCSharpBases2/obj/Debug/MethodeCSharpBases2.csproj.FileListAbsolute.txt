@@ -1,0 +1,7 @@
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\MethodeCSharpBases2\MethodeCSharpBases2\bin\Debug\MethodeCSharpBases2.exe.config
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\MethodeCSharpBases2\MethodeCSharpBases2\bin\Debug\MethodeCSharpBases2.exe
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\MethodeCSharpBases2\MethodeCSharpBases2\bin\Debug\MethodeCSharpBases2.pdb
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\MethodeCSharpBases2\MethodeCSharpBases2\obj\Debug\MethodeCSharpBases2.csprojAssemblyReference.cache
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\MethodeCSharpBases2\MethodeCSharpBases2\obj\Debug\MethodeCSharpBases2.csproj.CoreCompileInputs.cache
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\MethodeCSharpBases2\MethodeCSharpBases2\obj\Debug\MethodeCSharpBases2.exe
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\MethodeCSharpBases2\MethodeCSharpBases2\obj\Debug\MethodeCSharpBases2.pdb
