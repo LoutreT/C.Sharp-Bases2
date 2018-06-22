@@ -11,6 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             string[] jours = new string[] { "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche" };
+
             for (int i = 0; i < jours.Length; i++)
             {
                 Console.WriteLine(jours[i]);
