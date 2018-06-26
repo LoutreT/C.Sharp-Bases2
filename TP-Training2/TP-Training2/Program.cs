@@ -16,7 +16,7 @@ namespace TP_Training2
             }
             if(DateTime.Now.DayOfWeek == DayOfWeek.Sunday)
             {
-                Console.WriteLine("Bon fin de week-end !");
+                Console.WriteLine("Bonne fin de week-end !");
             }
             else
             {
