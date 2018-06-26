@@ -1,0 +1,7 @@
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\TP-Training1\TP-Training1\bin\Debug\TP-Training1.exe.config
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\TP-Training1\TP-Training1\bin\Debug\TP-Training1.exe
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\TP-Training1\TP-Training1\bin\Debug\TP-Training1.pdb
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\TP-Training1\TP-Training1\obj\Debug\TP-Training1.csprojAssemblyReference.cache
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\TP-Training1\TP-Training1\obj\Debug\TP-Training1.csproj.CoreCompileInputs.cache
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\TP-Training1\TP-Training1\obj\Debug\TP-Training1.exe
+C:\Users\Vincent\source\repos\C.Sharp-Bases2\TP-Training1\TP-Training1\obj\Debug\TP-Training1.pdb
