@@ -12,13 +12,16 @@ namespace TP_Training2
         {
             if(DateTime.Now.DayOfWeek == DayOfWeek.Friday && DateTime.Now.Hour >= 17 || DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
             {
-                Console.WriteLine("Bon Week-End");
+                Console.WriteLine("Bon Week-End !");
             }
             if(DateTime.Now.DayOfWeek == DayOfWeek.Sunday)
             {
-                Console.WriteLine("Bon fin de week-end");
+                Console.WriteLine("Bon fin de week-end !");
             }
-
+            else
+            {
+                Console.WriteLine("Bonne semaine !");
+            }
         }
     }
 }
