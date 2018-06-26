@@ -12,19 +12,83 @@ namespace TP_Training3
         {
             if (DateTime.Now.DayOfWeek == DayOfWeek.Friday && DateTime.Now.Hour >= 17 || DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
             {
-                Console.WriteLine("Bon Week-End !");
+                Console.WriteLine("Bon Week-End ! et...");
+                if(DateTime.Now.Hour >= 4 && DateTime.Now.Hour <= 12)
+                {
+                    Console.WriteLine("...Bonne journée !");
+                }
+                if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
+                {
+                    Console.WriteLine("...Bon après-midi !");
+                }
+                if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
+                {
+                    Console.WriteLine("...Bonne soirée !");
+                }
+                else
+                {
+                    Console.WriteLine("...Bonne nuit !");
+                }
             }
             if (DateTime.Now.DayOfWeek == DayOfWeek.Sunday)
             {
-                Console.WriteLine("Bonne fin de week-end !");
+                Console.WriteLine("Bonne fin de week-end ! et...");
+                if (DateTime.Now.Hour >= 4 && DateTime.Now.Hour <= 12)
+                {
+                    Console.WriteLine("...Bonne journée !");
+                }
+                if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
+                {
+                    Console.WriteLine("...Bon après-midi !");
+                }
+                if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
+                {
+                    Console.WriteLine("...Bonne soirée !");
+                }
+                else
+                {
+                    Console.WriteLine("...Bonne nuit !");
+                }
             }
             if (DateTime.Now.DayOfWeek == DayOfWeek.Monday || DateTime.Now.DayOfWeek == DayOfWeek.Tuesday || DateTime.Now.DayOfWeek == DayOfWeek.Wednesday)
             {
-                Console.WriteLine("Bonne semaine !");
+                Console.WriteLine("Bonne semaine ! et...");
+                if (DateTime.Now.Hour >= 4 && DateTime.Now.Hour <= 11)
+                {
+                    Console.WriteLine("...Bonne journée !");
+                }
+                if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
+                {
+                    Console.WriteLine("...Bon après-midi !");
+                }
+                if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
+                {
+                    Console.WriteLine("...Bonne soirée !");
+                }
+                else
+                {
+                    Console.WriteLine("...Bonne nuit !");
+                }
             }
             else
             {
-                Console.WriteLine("Bonne fin de semaine !");
+                Console.WriteLine("Bonne fin de semaine ! et...");
+                if (DateTime.Now.Hour >= 4 && DateTime.Now.Hour <= 11)
+                {
+                    Console.WriteLine("...Bonne journée !");
+                }
+                if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
+                {
+                    Console.WriteLine("...Bon après-midi !");
+                }
+                if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
+                {
+                    Console.WriteLine("...Bonne soirée !");
+                }
+                else
+                {
+                    Console.WriteLine("...Bonne nuit !");
+                }
             }
         }
     }
