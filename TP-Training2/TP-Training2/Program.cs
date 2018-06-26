@@ -10,14 +10,15 @@ namespace TP_Training2
     {
         static void Main(string[] args)
         {
-            if(DateTime.Now.DayOfWeek == DayOfWeek.Wednesday)
+            if(DateTime.Now.DayOfWeek == DayOfWeek.Friday && DateTime.Now.Hour >= 17 || DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
             {
-                Console.WriteLine("Bonne journée");
+                Console.WriteLine("Bon Week-End");
             }
-            else
+            if(DateTime.Now.DayOfWeek == DayOfWeek.Sunday)
             {
-                Console.WriteLine("Bonne semaine");
+                Console.WriteLine("Bon fin de week-end");
             }
+
         }
     }
 }
