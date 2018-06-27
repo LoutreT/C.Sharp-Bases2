@@ -19,15 +19,15 @@ namespace TP_Training4
                 {
                     Console.WriteLine("...Bonne journée !");
                 }
-                if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
+                else if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
                 {
                     Console.WriteLine("...Bon après-midi !");
                 }
-                if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
+                else if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
                 {
                     Console.WriteLine("...Bonne soirée !");
                 }
-                else
+                else if (DateTime.Now.Hour > 21 && DateTime.Now.Hour < 4)
                 {
                     Console.WriteLine("...Bonne nuit !");
                 }
@@ -39,15 +39,15 @@ namespace TP_Training4
                 {
                     Console.WriteLine("...Bonne journée !");
                 }
-                if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
+                else if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
                 {
                     Console.WriteLine("...Bon après-midi !");
                 }
-                if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
+                else if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
                 {
                     Console.WriteLine("...Bonne soirée !");
                 }
-                else
+                else if (DateTime.Now.Hour > 21 && DateTime.Now.Hour < 4)
                 {
                     Console.WriteLine("...Bonne nuit !");
                 }
@@ -57,19 +57,19 @@ namespace TP_Training4
                 DateTime.Now.DayOfWeek == DayOfWeek.Wednesday)
             {
                 SalutationBonneSemaine();
-                if (DateTime.Now.Hour >= 4 && DateTime.Now.Hour <= 11)
+                if (DateTime.Now.Hour >= 4 && DateTime.Now.Hour <= 12)
                 {
                     Console.WriteLine("...Bonne journée !");
                 }
-                if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
+                else if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
                 {
                     Console.WriteLine("...Bon après-midi !");
                 }
-                if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
+                else if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
                 {
                     Console.WriteLine("...Bonne soirée !");
                 }
-                else
+                else if (DateTime.Now.Hour > 21 && DateTime.Now.Hour < 4)
                 {
                     Console.WriteLine("...Bonne nuit !");
                 }
@@ -77,19 +77,19 @@ namespace TP_Training4
             else
             {
                 SalutationBonneFindeSemaine();
-                if (DateTime.Now.Hour >= 4 && DateTime.Now.Hour <= 11)
+                if (DateTime.Now.Hour >= 4 && DateTime.Now.Hour <= 12)
                 {
                     Console.WriteLine("...Bonne journée !");
                 }
-                if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
+                else if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 18)
                 {
                     Console.WriteLine("...Bon après-midi !");
                 }
-                if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
+                else if (DateTime.Now.Hour >= 18 && DateTime.Now.Hour <= 21)
                 {
                     Console.WriteLine("...Bonne soirée !");
                 }
-                else
+                else if (DateTime.Now.Hour > 21 && DateTime.Now.Hour < 4)
                 {
                     Console.WriteLine("...Bonne nuit !");
                 }
