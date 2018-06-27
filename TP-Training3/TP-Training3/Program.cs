@@ -67,7 +67,9 @@ namespace TP_Training3
                 }
                 else
                 {
-                    Console.WriteLine("...Bonne nuit !");
+                    Console.WriteLine("...Bonne nuit !" + Environment.UserName);
+
+
                 }
             }
             else
