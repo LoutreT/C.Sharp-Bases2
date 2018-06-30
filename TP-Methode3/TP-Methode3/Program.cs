@@ -10,14 +10,13 @@ namespace TP_Methode3
     {
         static void Main(string[] args)
         {
-        
-            static int SommeCroisee()
-            {
+            // static int SommeCroisee()  -------> Je découvre que ce n'est pas nécessaire.
+            // {
                 List<int> multiplede3 = new List<int>();   // ici on va remplir la 
-                                            // liste de multiplede3 avec ****.Add()
+                                                           // liste de multiplede3 avec ****.Add()
 
                 List<int> multiplede5 = new List<int>();   // ici on va remplir la 
-                                             // liste de multiplede5 avec ****.Add()
+                                                           // liste de multiplede5 avec ****.Add()
 
                 // faire une boucle qui démarre à 3 et d’avancer de 3 en 3 jusqu’à 
                 // la valeur souhaitée. Et pareil pour les multiples de 5 :
@@ -47,9 +46,11 @@ namespace TP_Methode3
                             somme += elementde3;
                     }
                 }
+                // return somme;
                 Console.WriteLine(somme);
-            }
+
+            // }
         }
-        
+
     }
 }
