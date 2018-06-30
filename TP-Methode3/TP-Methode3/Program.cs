@@ -10,7 +10,7 @@ namespace TP_Methode3
     {
         static void Main(string[] args)
         {
-        }
+        
             static int SommeCroisee()
             {
                 List<int> multiplede3 = new List<int>();   // ici on va remplir la 
@@ -44,11 +44,12 @@ namespace TP_Methode3
                     foreach (int elementde5 in multiplede5)
                     {
                         if (elementde3 == elementde5)
-                            somme += elementde5;
+                            somme += elementde3;
                     }
                 }
-            return somme;
+                Console.WriteLine(somme);
             }
+        }
         
     }
 }
