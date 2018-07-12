@@ -10,14 +10,30 @@ namespace Les7boules
     {
         static void Main(string[] args)
         {
-            int[] tableau = new int[50];
+            Console.Write("Les 7 boules seront choisies au hasard entre 1 et 50");
+        }
+
+        static int
+        {
+            List<int> cinquanteBoules;
+            cinquanteBoules = new List<int>();
 
             int i = 1;
             for (i = 0; i <= 50; i++)
             {
-                Console.Write(tableau[i]);
-                i++;
+                cinquanteBoules.Add(i);
+                Console.WriteLine(cinquanteBoules);
             }
+        }
+
+/// //////////////////////////////////////////
+
+        static int random()
+        {
+            Random random = new Random();
+            int ballNumber = random.Next(1, 49);
+            // return 
+            return ballNumber;                
         }
     }
 }
